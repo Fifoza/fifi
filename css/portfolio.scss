@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700,700i&subset=cyrillic');
+
+body {
+    font-family: 'Philosopher', sans-serif;
+
+    nav {
+        color: rebeccapurple;
+        background-color: rebeccapurple;
+        font-weight: 700;
+    }
+}
+
+.navbar-toggler {
+    color: mediumaquamarine;
+}
+
+#navbarNavAltMarkup {
+    background: rebeccapurple;
+    font-style: white;
+}
+
+#navbar {
+    ul {
+        li {
+            a {
+                color: blue;
+            }
+        }
+    }
+}
+
+.card {
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    text-align: -webkit-center;
+}
+
+.mainContainer {
+    border: 2px solid blueviolet;
+}
+
+.h3 {
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.headerJumbo {
+    background: rgb(192, 1, 97);
+}
+
+.card-body {
+    background: rgb(48, 172, 234);
+    border-radius: 0 0 15px 15px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+div.card-header {
+    text-align: center;
+}
+
+#education,
+#education2,
+    {
+    border-radius: 15px;
+
+    font-size: 1.3rem;
+
+}
+
+h3 {
+    text-align: -webkit-center;
+}
+
+#headerJumbo {
+    border-radius: 15px;
+    background: linear-gradient(left, rgba(203, 96, 179, 1) 0%, rgba(168, 0, 119, 1) 35%, rgba(193, 70, 161, 1) 67%, rgba(219, 54, 164, 1) 100%);
+}
+
+.card-img-top {
+    border-radius: 15px;
+}
+
+#conacts {
+    border-radius: 15px;
+}
+
+.card-footer:last-child {
+    border-radius: 15px;
+    background: rgb(192, 1, 97);
+}
+
+#upSection {
+    border-radius: 15px;
+}
+
+#edSection,
+#edSection2 {
+    background: rgb(192, 1, 97);
+    border-radius: 15px;
+}
+
+.list-group-item {
+    background: succes;
+}
+
+#conacts {
+    background: paleturquoise;
+}
+
+#footerPanel {
+    border-radius: 15px;
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+#back {
+    border-radius: 15px;
+    background: lightcoral;
+    font-style: color rgb(182, 128, 240);
+}
+
+#education2 {
+    button {
+        font-style: color rgb(192, 1, 97);
+        background: lightcoral;
+        border-radius: 15px;
+    }
+}
+
+body {
+    background-image: url(../img/paper-571938_1920.jpg);
+
+    #headerJumbo {
+        background-image: url(../img/10.jpg);
+    }
+
+    #headingOne {
+        background-color: aqua;
+
+    }
+
+    #footerPanel {
+        p {
+            text-align: center;
+        }
+
+        #upSection {
+            background-color: rgb(192, 1, 97);
+        }
+
+    }
+
+    #education2 {
+
+        color: white;
+        background-color: rgb(192, 1, 97);
+
+
+    }
+
+    #footerPanel {
+        .card-body {
+            border-radius: 0 0 15px 15px;
+        }
+    }
+
+    #gallery {
+        background-color: aqua;
+        border-radius: 15px;
+        h3{
+            color: rgba(168, 0, 119, 1);
+        }
+        margin-left: 10rem;
+        width: 70%;
+        height: 40%;
+
+        img {
+            width: 70%;
+            height: 60%;
+        }
+
+    }
+
+    .carousel {
+        position: relative;
+        width: 43rem;
+        margin-left: 10%;
+    }
+}
